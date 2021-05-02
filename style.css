@@ -1,0 +1,70 @@
+
+    *{
+    font-family: Sofia Pro;
+    font-weight:300;
+}
+body, ul, li{
+    margin:0;
+    padding:0;
+}
+p, li, h1, h2, h3, h4{
+    color:darkslategrey;
+}
+body{
+    background-color: azure;
+}
+.wrapper{
+    width:96%;
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 2%;
+}
+header{
+    background-color: papayawhip;
+    padding:10px 0;
+}
+.logo{
+    margin:0;
+    
+    background: url(logo.png);
+    background-size:70px 70px;
+    float:left;
+    width:70px;
+    height:70px;
+}
+header:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+header nav{
+    float:right;
+}
+
+header nav li{
+    list-style-type:none;
+    float:left;
+    margin-left:20px;
+    margin-top:20px;
+}
+header nav li a{
+    text-decoration:none;
+    color:darkslategrey;
+    font-size:15px;
+    text-transform: uppercase;
+}
+    
+  
+  .info {
+    margin-top: 70px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+  }
+  a:hover{
+    background-color: black;
+    color: white;
+  }
+  
