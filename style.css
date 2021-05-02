@@ -1,7 +1,7 @@
 
     *{
     font-family: Sofia Pro;
-    font-weight:300;
+    font: weight 500;;
 }
 body, ul, li{
     margin:0;
@@ -20,7 +20,7 @@ body{
     padding:0 2%;
 }
 header{
-    background-color: papayawhip;
+    background-color: rgb(213, 214, 255);
     padding:10px 0;
 }
 .logo{
@@ -65,6 +65,8 @@ header nav li a{
   }
   a:hover{
     background-color: black;
+    margin: 30px;
+    padding: 40px;
     color: white;
   }
   
