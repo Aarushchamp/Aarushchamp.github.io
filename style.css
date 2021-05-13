@@ -3,6 +3,17 @@
     font-family: Sofia Pro;
     font: weight 500;;
 }
+.profile-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   padding: 50px;
+}
+.profile-image p{
+    padding: 40px;
+    font-size: 50px;
+}
 body, ul, li{
     margin:0;
     padding:0;
